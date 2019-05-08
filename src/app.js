@@ -21,15 +21,13 @@ function Search(props) {
 
 function Map(props) {
   return (
-    <div>
-      A google Image will be here
-    </div>
+    <img src="https://maps.googleapis.com/maps/api/staticmap?center=47.606210%2c%20-122.332071&zoom=13&size=600x300&maptype=roadmap%20%20&key=AIzaSyBfOxvSAEhF0bINfqhSTthhNKEBb8eHfHc"></img>
   );
 }
 
-function Resul(props) {
+function Result(props) {
   return (
-    <section>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci nulla pellentesque dignissim enim. Consectetur purus ut faucibus pulvinar. Diam quis enim lobortis scelerisque fermentum dui. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Donec enim diam vulputate ut pharetra sit. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Mollis nunc sed id semper risus in. Viverra nam libero justo laoreet sit amet cursus. Dolor purus non enim praesent elementum. Viverra orci sagittis eu volutpat odio. Tellus orci ac auctor augue mauris augue neque gravida in. Netus et malesuada fames ac turpis egestas sed tempus. Nibh cras pulvinar mattis nunc sed blandit. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Dui id ornare arcu odio ut.</section>
+    <section styler="border: 1px solid black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci nulla pellentesque dignissim enim. Consectetur purus ut faucibus pulvinar. Diam quis enim lobortis scelerisque fermentum dui. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Donec enim diam vulputate ut pharetra sit. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Mollis nunc sed id semper risus in. Viverra nam libero justo laoreet sit amet cursus. Dolor purus non enim praesent elementum. Viverra orci sagittis eu volutpat odio. Tellus orci ac auctor augue mauris augue neque gravida in. Netus et malesuada fames ac turpis egestas sed tempus. Nibh cras pulvinar mattis nunc sed blandit. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Dui id ornare arcu odio ut.</section>
   );
 }
 
@@ -37,8 +35,6 @@ class Main extends React.Component {
   constructor(props){
     super(props);
   }
-
-
 
 
   render () {

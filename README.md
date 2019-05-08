@@ -75,21 +75,21 @@ Estimate of time needed to complete: 30 minutes
 
 Start time: 8:45am
 
-Finish time: 
+Finish time: 9:00am
 
-Actual time needed to complete: 
+Actual time needed to complete: 15 minutes
 
 
 
-Number and name of feature: 
+Number and name of feature: Main
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 9:00am
 
-Finish time: 
+Finish time: 9:45am
 
-Actual time needed to complete: 
+Actual time needed to complete: 45 minutes
 
 
 
