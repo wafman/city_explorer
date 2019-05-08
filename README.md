@@ -69,11 +69,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 
-Number and name of feature: 
+Number and name of feature: Header
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 30 minutes
 
-Start time: 
+Start time: 8:45am
 
 Finish time: 
 
