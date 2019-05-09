@@ -11,7 +11,7 @@ class Yelp extends React.Component {
   render () {
     return (
       <>
-      <ul></ul>
+      <ul>Yelp</ul>
       </>
     );
   }
