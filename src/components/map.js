@@ -1,9 +1,28 @@
 import React from 'react';
+import superagent from 'superagent';
+import Search from './search-form.js'
 
-function Map(props) {
-  return (
-    <img src="https://maps.googleapis.com/maps/api/staticmap?center=47.606210%2c%20-122.332071&zoom=13&size=600x300&maptype=roadmap%20%20&key=AIzaSyBfOxvSAEhF0bINfqhSTthhNKEBb8eHfHc"></img>
-  );
+class Map extends React.Component {
+  constructor(props) {
+    super(props);
+
+
+  }
+ 
+  handleMap = (data) => {
+    this.setState({latitde: this.data.latitde});
+    this.setState({longitude: this.data.longitude})
+    console.log(data.latitude, data.longitude);
+
+  }
+
+  render () {
+    return (
+     <img src={`https://maps.googleapis.com/maps/api/staticmap?center=${this.latitde}%2c%20${this.longitude}&zoom=13&size=600x300&maptype=roadmap
+     &key=${process.env.GEOCODE_API_KEY}`} alt="GOOGLE MAPS"></img>
+    );
+  }
+
 }
 
 export default Map;

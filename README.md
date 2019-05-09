@@ -95,27 +95,27 @@ Actual time needed to complete: 45 minutes
 
 Number and name of feature: Refactor to Separate Files
 
-Estimate of time needed to complete: 1 hour
+Estimate of time needed to complete: 1 hours
 
 Start time: 7:00am
 
+Finish time: 8:00am
+
+Actual time needed to complete: 1 hour
+
+
+Number and name of feature: Capture Event data
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 8:00am
+
 Finish time: 
 
 Actual time needed to complete: 
 
 
-Number and name of feature: 
-
-Estimate of time needed to complete: 
-
-Start time: 
-
-Finish time: 
-
-Actual time needed to complete: 
-
-
-Number and name of feature: 
+Number and name of feature: API request
 
 Estimate of time needed to complete: 
 

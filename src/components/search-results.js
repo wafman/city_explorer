@@ -1,18 +1,20 @@
 import React from 'react';
 
-import Results from './results.js';
+import Yelp from './results/yelp.js';
+import Eventbrite from './results/eventbrite';
+import Moviedb from './results/moviedb';
+import Darksky from './results/darksky.js';
 
 function Search_Results(props) {
   
     return (
       <>
-        <main>
-          <Results />
-          <Results />
-          <Results />
-          <Results />
-          <Results />
-        </main>
+        <section>
+          <Darksky/>
+          <Yelp />
+          <Eventbrite />
+          <Moviedb />
+        </section>
       </>
     );
  
