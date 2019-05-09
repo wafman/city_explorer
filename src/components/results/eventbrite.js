@@ -6,7 +6,7 @@ class Eventbrite extends React.Component {
   render () {
     return (
       <>
-      <ul></ul>
+      <ul>Eventbrite</ul>
       </>
     );
   }
