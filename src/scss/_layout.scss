@@ -1,0 +1,25 @@
+section * {
+  padding: 0 2px;
+  p {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.3em; 
+  }
+}
+/* Style the yelp images */
+div section:nth-child(2) img {
+  height: 75px;
+  padding-bottom: 3px;
+}
+
+/* Style the movie images */
+div section:nth-child(4) img {
+  height: 150px;
+}
+
+form {
+  margin: 10px auto;
+  label {
+    font-family: $impt_fnt_std;
+  }
+}
