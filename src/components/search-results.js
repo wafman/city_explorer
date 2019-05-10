@@ -10,10 +10,10 @@ function Search_Results(props) {
     return (
       <>
         <section>
-          <Darksky/>
-          <Yelp />
-          <Eventbrite />
-          <Moviedb />
+          <Darksky location={this.state.location}/>
+          <Yelp location={this.state.location}/>
+          <Eventbrite location={this.state.location}/>
+          <Moviedb location={this.state.location}/>
         </section>
       </>
     );
