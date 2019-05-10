@@ -11,28 +11,26 @@ class Main extends React.Component {
     super(props);
 
     this.state = {
-      query: '',
-      location: ''
+      
     }
   }
 
-
-  handleSubmit = async query => {
-    await this.setState({query});
-    console.log(query);
-    let url = `https://aqueous-springs-46846.herokuapp.com/location?data=${this.state.query}`;
-    superagent.get(url)
-      .then(res => {
-        this.setState({location: res.body});
-      });
+  setLocation = (location) => {
+    this.setState({
+      search_query : location.search_query,
+      formatted_query : location.formatted_query,
+      latitude : location.latitude,
+      longitude : location.longitude
+    })
   }
+  
 
   render () {
     return (
       <React.Fragment>
-        <Search handleSubmit={this.handleSubmit}  />
-        <Map location={this.state.location} />
-        <Search_Results location={this.state.location}/>
+        <Search setLocation={this.setLocation}  />
+        <Map longitude={this.state.longitude} latitude={this.state.latitude} />
+        <Search_Results query={this.state.search_query}/>
       </React.Fragment>
       
     );
