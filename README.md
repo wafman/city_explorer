@@ -110,27 +110,27 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 8:00am
 
-Finish time: 
+Finish time: 10:00am
 
-Actual time needed to complete: 
+Actual time needed to complete: 2 hours
 
 
 Number and name of feature: API request
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 3 hours
 
-Start time: 
+Start time: 10:00 am
 
-Finish time: 
+Finish time: 12:00pm next day
 
-Actual time needed to complete: 
+Actual time needed to complete: 26 hours
 
 
-Number and name of feature: 
+Number and name of feature: SCSS
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 2 hours
 
-Start time: 
+Start time: 12:00pm
 
 Finish time: 
 
